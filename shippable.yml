@@ -2,7 +2,7 @@ language: php
 
 php: 
   - 5.3
- # - 5.4
+  - 5.4
   #- 5.5
   #- 5.6
   
@@ -17,7 +17,7 @@ after_success:
   - echo "success"
   
 after_failure:
-  - echo :failure"
+  - echo "failure"
   
 notifications:
    email: 
